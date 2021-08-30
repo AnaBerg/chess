@@ -1,4 +1,4 @@
-﻿using Chess.Board;
+﻿using Chess.board;
 using System;
 
 
@@ -6,8 +6,9 @@ namespace Chess {
     class Program {
         static void Main(string[] args) {
 
-            Position P = new Position(3, 4);
+            Board p = new Board(8, 8);
 
+            Screen.printBoard(p);
 
         }
     }

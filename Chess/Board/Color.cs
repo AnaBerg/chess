@@ -1,4 +1,4 @@
-﻿namespace Chess.Board {
+﻿namespace Chess.board {
     enum Color {
         White,
         Black,

@@ -1,4 +1,4 @@
-﻿namespace Chess.Board {
+﻿namespace Chess.board {
     class Position {
 
         public int line { get; set; }

@@ -1,4 +1,4 @@
-﻿namespace Chess.Board {
+﻿namespace Chess.board {
     class Piece {
 
         public Position position { get; set; }
@@ -12,5 +12,6 @@
             this.color = color;
             this.movementQtd = 0;
         }
+
     }
 }
